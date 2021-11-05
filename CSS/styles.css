@@ -1,3 +1,9 @@
+:root {
+  --gray-one: #4e5150;
+  --gray-two: #bdbdbd;
+  --gray-bg-three: #e5e5e5;
+}
+
 * {
   margin: 0;
   padding: 0;
