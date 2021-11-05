@@ -78,6 +78,7 @@ Section Profile
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1.6rem;
+  margin-bottom: 2.4rem;
 }
 .gallery img {
   width: 100%;
@@ -103,4 +104,24 @@ Section Profile
 .gallery__img-5 {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
+}
+
+/*====
+Footer
+======*/
+.footer {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--gray-one);
+}
+.footer a {
+  text-decoration: none;
+  color: var(--gray-one);
+  cursor: pointer;
+  transition: all 300ms;
+}
+.footer a:hover {
+  font-size: 1.6rem;
+  color: #ff9100;
 }
