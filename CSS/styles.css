@@ -9,9 +9,63 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
   line-height: 1.5;
+}
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*=============
+Section Profile
+===============*/
+.profile {
+  margin: 2.4rem 0;
+}
+.profile__data {
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+.profile__img {
+  width: 10rem;
+  border-radius: 1.6rem;
+}
+.profile__name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--gray-one);
+}
+.profile__city {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-two);
+}
+.profile__social {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+.profile__social-item {
+  width: 7.8rem;
+  height: 5.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  background-color: var(--gray-bg-three);
+}
+.profile__social-item h3,
+.profile__social-item p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--gray-one);
+}
+.profile__social-item h3 {
+  margin-top: 0.8rem;
+}
+.profile__social-item p {
+  color: var(--gray-two);
 }
