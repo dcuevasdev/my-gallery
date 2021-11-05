@@ -125,3 +125,35 @@ Footer
   font-size: 1.6rem;
   color: #ff9100;
 }
+
+/*========
+Responsive
+==========*/
+@media (min-width: 768px) {
+  /*===============
+    Section Profile
+===================*/
+  .profile__img {
+    width: 15.6rem;
+  }
+  .profile__name {
+    font-size: 2.4rem;
+  }
+  .profile__city {
+    font-size: 1.4rem;
+  }
+  .profile__social {
+    justify-content: space-between;
+  }
+  .profile__social-item {
+    width: 10rem;
+    height: 7.2rem;
+  }
+  .profile__social-item h3 {
+    margin-top: 1.2rem;
+    font-size: 1.8rem;
+  }
+  .profile__social-item p {
+    font-size: 1.4rem;
+  }
+}
